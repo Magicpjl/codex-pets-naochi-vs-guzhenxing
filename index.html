@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex Pets：闹吃大战古振兴</title>
+  <meta name="description" content="闹吃与古振兴的 Codex Pets 双人动画预览：九种动作、十六个方向与固定音游音符。">
+  <link rel="stylesheet" href="style.css">
+  <script src="script/preview.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <p class="eyebrow">CODEX PETS · 双人舞台</p>
+      <h1>闹吃 <span>VS</span> 古振兴</h1>
+      <p class="intro">选一个动作，看看他们如何接住节拍。</p>
+    </header>
+
+    <section class="stage" aria-label="双人动画预览">
+      <div class="toolbar">
+        <label class="sync-label"><input id="sync" type="checkbox" checked> 同步两人</label>
+        <div class="toolbar-actions">
+          <button id="play-all" type="button" disabled>暂停两人</button>
+          <button id="restart" class="secondary" type="button" disabled>从头播放</button>
+        </div>
+      </div>
+      <p id="load-status" class="status" role="status">正在载入精灵图…</p>
+      <div class="performers">
+        <article class="performer" data-pet="naochi">
+          <div class="card-heading"><h2>闹吃</h2><span class="badge">黑帽 · 浓胡子</span></div>
+          <div class="canvas-wrap"><canvas width="192" height="208" aria-label="闹吃动画预览"></canvas></div>
+          <p class="frame-label">唱歌 · 第 1 / 6 帧</p>
+          <div class="controls">
+            <label>动作<select class="motion" aria-label="闹吃动作" disabled></select></label>
+            <label>方向<select class="direction" aria-label="闹吃方向" disabled></select></label>
+            <button class="play-pet" type="button" disabled>暂停</button>
+          </div>
+          <div class="asset-links"><a href="assets/pets/naochi/spritesheet.png" download>下载精灵图</a><a href="assets/pets/naochi/all-states.gif">全部动作 GIF</a></div>
+        </article>
+        <article class="performer" data-pet="guzhenxing">
+          <div class="card-heading"><h2>古振兴</h2><span class="badge">贴头短发 · 三指手势</span></div>
+          <div class="canvas-wrap"><canvas width="192" height="208" aria-label="古振兴动画预览"></canvas></div>
+          <p class="frame-label">唱歌 · 第 1 / 6 帧</p>
+          <div class="controls">
+            <label>动作<select class="motion" aria-label="古振兴动作" disabled></select></label>
+            <label>方向<select class="direction" aria-label="古振兴方向" disabled></select></label>
+            <button class="play-pet" type="button" disabled>暂停</button>
+          </div>
+          <div class="asset-links"><a href="assets/pets/guzhenxing/spritesheet.png" download>下载精灵图</a><a href="assets/pets/guzhenxing/all-states.gif">全部动作 GIF</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="notes" aria-label="动作说明">
+      <div><h3>待机留白</h3><p>待机没有彩色音符下落，动作开始时音符才出现。</p></div>
+      <div><h3>音符各走各的</h3><p>三列箭头只沿垂直方向下落，角色跳跃时，音符位置不跟着移动。</p></div>
+      <div><h3>16 个方向</h3><p>切换到方向查看，播放时环绕一周；暂停后可以固定一个方向。</p></div>
+    </section>
+    <footer><a href="README.md">素材说明</a><a href="assets/manifest.json">素材清单</a><a href="https://www.bilibili.com/video/BV1esbf6wEkc/" target="_blank" rel="noopener noreferrer">原视频参考</a><span>9 种动作 · 16 个方向</span></footer>
+    <noscript><p class="status">请开启 JavaScript 使用互动预览，或查看下方唱歌 GIF。</p><div class="fallback"><img src="assets/pets/naochi/singing-main.gif" alt="闹吃唱歌"><img src="assets/pets/guzhenxing/singing-main.gif" alt="古振兴唱歌"></div></noscript>
+  </main>
+</body>
+</html>

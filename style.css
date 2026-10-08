@@ -1,0 +1,59 @@
+:root { color-scheme: light; font-family: "Segoe UI", "Microsoft YaHei", sans-serif; color: #282320; background: #f7f3ed; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1060px; margin: 0 auto; padding: 48px 24px 30px; }
+.hero { text-align: center; margin-bottom: 32px; }
+.eyebrow { font-size: 12px; letter-spacing: .18em; font-weight: 700; color: #967152; margin: 0 0 12px; }
+h1 { margin: 0; font-size: clamp(30px, 5vw, 48px); letter-spacing: -.035em; line-height: 1.2; }
+h1 span { font-size: .45em; color: #b8583b; vertical-align: middle; display: inline-block; margin: 0 .75em; letter-spacing: .05em; }
+.intro { color: #776b61; font-size: 15px; margin: 15px 0 0; }
+.stage { background: #fffdfa; border: 1px solid #e5dacf; border-radius: 24px; box-shadow: 0 12px 40px #56433108; overflow: hidden; }
+.toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 24px; border-bottom: 1px solid #eee6dd; }
+.sync-label { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; cursor: pointer; }
+input[type="checkbox"] { accent-color: #ad563b; width: 17px; height: 17px; }
+.toolbar-actions { display: flex; gap: 8px; }
+button, select { font: inherit; }
+button { border: 1px solid #ad563b; background: #ad563b; color: white; border-radius: 9px; padding: 9px 14px; font-size: 13px; font-weight: 600; cursor: pointer; }
+button:hover { background: #954831; }
+button.secondary { background: transparent; color: #73543f; border-color: #d8cabb; }
+button.secondary:hover { background: #f6efe7; }
+button:disabled, select:disabled { opacity: .5; cursor: default; }
+button:focus-visible, select:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid #c76c50; outline-offset: 3px; }
+.status { margin: 0; padding: 13px 24px 0; font-size: 13px; color: #8a7768; text-align: center; }
+.status.error { color: #a23528; padding-bottom: 14px; }
+.status:empty { display: none; }
+.performers { display: grid; grid-template-columns: 1fr 1fr; }
+.performer { min-width: 0; padding: 26px 28px; }
+.performer + .performer { border-left: 1px solid #eee6dd; }
+.card-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+h2 { margin: 0; font-size: 23px; }
+.badge { font-size: 11px; border-radius: 20px; background: #f0e9df; color: #80694f; padding: 5px 9px; }
+.canvas-wrap { aspect-ratio: 192 / 208; max-width: 360px; margin: 0 auto; border-radius: 16px; background-color: #f3eee7; background-image: linear-gradient(45deg, #eae2d7 25%, transparent 25%), linear-gradient(-45deg, #eae2d7 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #eae2d7 75%), linear-gradient(-45deg, transparent 75%, #eae2d7 75%); background-size: 24px 24px; background-position: 0 0, 0 12px, 12px -12px, -12px 0; overflow: hidden; }
+canvas { display: block; width: 100%; height: 100%; }
+.frame-label { font-size: 12px; color: #8c7e6e; text-align: center; margin: 11px 0 18px; font-variant-numeric: tabular-nums; }
+.controls { display: grid; grid-template-columns: 1.2fr 1fr auto; gap: 8px; align-items: end; }
+.controls label { display: grid; gap: 6px; font-size: 11px; color: #8b7866; }
+select { width: 100%; min-width: 0; height: 36px; font-size: 12px; border: 1px solid #d8cabb; color: #45382d; border-radius: 8px; background: #fffefa; padding: 0 7px; }
+.play-pet { height: 36px; padding: 0 12px; }
+.asset-links { display: flex; gap: 18px; margin-top: 20px; font-size: 12px; }
+a { color: #9c5339; text-underline-offset: 3px; text-decoration-color: #cfb49f; }
+a:hover { color: #703925; }
+.notes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin: 28px 12px; }
+h3 { font-size: 14px; margin: 0 0 8px; }
+.notes p { color: #8b7a68; font-size: 12px; line-height: 1.8; margin: 0; }
+footer { display: flex; flex-wrap: wrap; gap: 18px; padding: 22px 12px 0; border-top: 1px solid #e8dfd3; color: #978574; font-size: 11px; }
+footer span { margin-left: auto; }
+.fallback { display: flex; justify-content: center; gap: 24px; }
+@media (max-width: 650px) {
+  main { padding: 30px 12px 22px; }
+  .hero { margin-bottom: 24px; }
+  .toolbar { padding: 14px; gap: 10px; }
+  .toolbar-actions { gap: 5px; }
+  .toolbar-actions button { padding: 9px; font-size: 12px; }
+  .performer { padding: 22px 14px; }
+  .performers { grid-template-columns: 1fr; }
+  .performer + .performer { border-left: none; border-top: 1px solid #eee6dd; }
+  .notes { grid-template-columns: 1fr; gap: 16px; margin: 24px 10px; }
+  footer { gap: 12px; }
+  footer span { width: 100%; margin-left: 0; }
+}
