@@ -73,7 +73,7 @@
     {
       "slug": "guzhenxing",
       "name": "古振兴",
-      "source_revision": 4,
+      "source_revision": 5,
       "atlas": "assets/pets/guzhenxing/spritesheet.png",
       "previews": {
         "all-states": "assets/pets/guzhenxing/all-states.gif",
@@ -81,8 +81,8 @@
         "idle-jump-idle": "assets/pets/guzhenxing/idle-jump-idle.gif",
         "look-loop": "assets/pets/guzhenxing/look-loop.gif"
       },
-      "atlas_sha256": "ee0207d7ca4aa231944ce11eb874c9ce29fcf3eceae9ac4f5b842f9b9989bb16",
-      "atlas_bytes": 2121700
+      "atlas_sha256": "48e8a9c2f638c96973ce2b07746b600b112a1e469af4dd92d59bfad5f84d485d",
+      "atlas_bytes": 2129549
     }
   ],
   "files": [
@@ -146,8 +146,8 @@
     },
     {
       "path": "assets/pets/guzhenxing/spritesheet.png",
-      "bytes": 2121700,
-      "sha256": "ee0207d7ca4aa231944ce11eb874c9ce29fcf3eceae9ac4f5b842f9b9989bb16",
+      "bytes": 2129549,
+      "sha256": "48e8a9c2f638c96973ce2b07746b600b112a1e469af4dd92d59bfad5f84d485d",
       "width": 1536,
       "height": 2288,
       "format": "PNG",
@@ -156,27 +156,27 @@
     },
     {
       "path": "assets/pets/guzhenxing/all-states.gif",
-      "bytes": 755671,
-      "sha256": "3b7f3cac9aefd1dc60cf1f19cfe702520dde0958837876716efd1af0aff96532",
+      "bytes": 757701,
+      "sha256": "5a6e5a9c1be64a5f3d3b11b901b16783f0edb7a6a930a46d21ccfa0d6aa779ff",
       "width": 192,
       "height": 236,
       "format": "GIF",
       "frames": 57,
       "mode": "P",
-      "duration_ms": 8840,
-      "loop": 0
+      "loop": 0,
+      "duration_ms": 8840
     },
     {
       "path": "assets/pets/guzhenxing/singing-main.gif",
-      "bytes": 77380,
-      "sha256": "fbe78db90742a6ee99e0254692f782f8cfc45455dfe055d7f23245bfce5a3283",
+      "bytes": 79337,
+      "sha256": "fe985f773e7dc1083aa2e61dc60f43d314a97a975e3d3fa9f3e257d1128f1122",
       "width": 192,
       "height": 208,
       "format": "GIF",
       "frames": 6,
       "mode": "P",
-      "duration_ms": 820,
-      "loop": 0
+      "loop": 0,
+      "duration_ms": 820
     },
     {
       "path": "assets/pets/guzhenxing/idle-jump-idle.gif",
@@ -187,8 +187,8 @@
       "format": "GIF",
       "frames": 17,
       "mode": "P",
-      "duration_ms": 3040,
-      "loop": 0
+      "loop": 0,
+      "duration_ms": 3040
     },
     {
       "path": "assets/pets/guzhenxing/look-loop.gif",
@@ -199,8 +199,8 @@
       "format": "GIF",
       "frames": 16,
       "mode": "P",
-      "duration_ms": 2880,
-      "loop": 0
+      "loop": 0,
+      "duration_ms": 2880
     }
   ],
   "path_base": "repository-root",
