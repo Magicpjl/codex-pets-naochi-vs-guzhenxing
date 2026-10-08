@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "title": "Codex Pets：闹吃大战古振兴",
+  "sprite_version": 2,
+  "atlas_size": {
+    "width": 1536,
+    "height": 2288
+  },
+  "cell_size": {
+    "width": 192,
+    "height": 208
+  },
+  "columns": 8,
+  "row_frame_counts": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "rows": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review",
+    "look-0-157.5",
+    "look-180-337.5"
+  ],
+  "look_angles_degrees": [
+    0.0,
+    22.5,
+    45.0,
+    67.5,
+    90.0,
+    112.5,
+    135.0,
+    157.5,
+    180.0,
+    202.5,
+    225.0,
+    247.5,
+    270.0,
+    292.5,
+    315.0,
+    337.5
+  ],
+  "pets": [
+    {
+      "slug": "naochi",
+      "name": "闹吃",
+      "source_revision": 2,
+      "atlas": "assets/pets/naochi/spritesheet.png",
+      "previews": {
+        "all-states": "assets/pets/naochi/all-states.gif",
+        "singing-main": "assets/pets/naochi/singing-main.gif",
+        "idle-jump-idle": "assets/pets/naochi/idle-jump-idle.gif",
+        "look-loop": "assets/pets/naochi/look-loop.gif"
+      },
+      "atlas_sha256": "da17edd5aefb8294c8aad0f9435fc2646251f7669978c55f1f1fe5e5a7bd0840",
+      "atlas_bytes": 2475509
+    },
+    {
+      "slug": "guzhenxing",
+      "name": "古振兴",
+      "source_revision": 4,
+      "atlas": "assets/pets/guzhenxing/spritesheet.png",
+      "previews": {
+        "all-states": "assets/pets/guzhenxing/all-states.gif",
+        "singing-main": "assets/pets/guzhenxing/singing-main.gif",
+        "idle-jump-idle": "assets/pets/guzhenxing/idle-jump-idle.gif",
+        "look-loop": "assets/pets/guzhenxing/look-loop.gif"
+      },
+      "atlas_sha256": "ee0207d7ca4aa231944ce11eb874c9ce29fcf3eceae9ac4f5b842f9b9989bb16",
+      "atlas_bytes": 2121700
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/pets/naochi/spritesheet.png",
+      "bytes": 2475509,
+      "sha256": "da17edd5aefb8294c8aad0f9435fc2646251f7669978c55f1f1fe5e5a7bd0840",
+      "width": 1536,
+      "height": 2288,
+      "format": "PNG",
+      "frames": 1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/pets/naochi/all-states.gif",
+      "bytes": 832810,
+      "sha256": "54b5e8ffa7f9dfea160512910bc035be903052722c126adbe58d5f6858d6d25b",
+      "width": 192,
+      "height": 236,
+      "format": "GIF",
+      "frames": 57,
+      "mode": "P",
+      "duration_ms": 8840,
+      "loop": 0
+    },
+    {
+      "path": "assets/pets/naochi/singing-main.gif",
+      "bytes": 94992,
+      "sha256": "5c3eab564a1999c7feaf7abbc490ca00fe86b12d713fcb768f4634531e80aea0",
+      "width": 192,
+      "height": 208,
+      "format": "GIF",
+      "frames": 6,
+      "mode": "P",
+      "duration_ms": 820,
+      "loop": 0
+    },
+    {
+      "path": "assets/pets/naochi/idle-jump-idle.gif",
+      "bytes": 248567,
+      "sha256": "49162662a5b66ac27030acfa87dc6a4f850f86203366b94d3d9498b2db363079",
+      "width": 192,
+      "height": 208,
+      "format": "GIF",
+      "frames": 17,
+      "mode": "P",
+      "duration_ms": 3040,
+      "loop": 0
+    },
+    {
+      "path": "assets/pets/naochi/look-loop.gif",
+      "bytes": 254553,
+      "sha256": "7ed40319054d741088a233eccf4eb736e2e1e380dcaed9c92e9e146b7896665b",
+      "width": 192,
+      "height": 236,
+      "format": "GIF",
+      "frames": 16,
+      "mode": "P",
+      "duration_ms": 2880,
+      "loop": 0
+    },
+    {
+      "path": "assets/pets/guzhenxing/spritesheet.png",
+      "bytes": 2121700,
+      "sha256": "ee0207d7ca4aa231944ce11eb874c9ce29fcf3eceae9ac4f5b842f9b9989bb16",
+      "width": 1536,
+      "height": 2288,
+      "format": "PNG",
+      "frames": 1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/pets/guzhenxing/all-states.gif",
+      "bytes": 755671,
+      "sha256": "3b7f3cac9aefd1dc60cf1f19cfe702520dde0958837876716efd1af0aff96532",
+      "width": 192,
+      "height": 236,
+      "format": "GIF",
+      "frames": 57,
+      "mode": "P",
+      "duration_ms": 8840,
+      "loop": 0
+    },
+    {
+      "path": "assets/pets/guzhenxing/singing-main.gif",
+      "bytes": 77380,
+      "sha256": "fbe78db90742a6ee99e0254692f782f8cfc45455dfe055d7f23245bfce5a3283",
+      "width": 192,
+      "height": 208,
+      "format": "GIF",
+      "frames": 6,
+      "mode": "P",
+      "duration_ms": 820,
+      "loop": 0
+    },
+    {
+      "path": "assets/pets/guzhenxing/idle-jump-idle.gif",
+      "bytes": 218991,
+      "sha256": "8aba4cc8dda9a9f6ebcff32a20a27391b3729a4c7d66ce46e7d83cb1d13b1e20",
+      "width": 192,
+      "height": 208,
+      "format": "GIF",
+      "frames": 17,
+      "mode": "P",
+      "duration_ms": 3040,
+      "loop": 0
+    },
+    {
+      "path": "assets/pets/guzhenxing/look-loop.gif",
+      "bytes": 229707,
+      "sha256": "22f6b9d566a377973b4178a66bbf70527d9237f49bbb001d21cbe63cf324223d",
+      "width": 192,
+      "height": 236,
+      "format": "GIF",
+      "frames": 16,
+      "mode": "P",
+      "duration_ms": 2880,
+      "loop": 0
+    }
+  ],
+  "path_base": "repository-root",
+  "look_angle_convention": {
+    "zero": "up",
+    "rotation": "clockwise",
+    "cardinals": {
+      "0": "up",
+      "90": "right",
+      "180": "down",
+      "270": "left"
+    }
+  },
+  "actions": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frames": 6,
+      "frame_durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frames": 8,
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frames": 8,
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frames": 4,
+      "frame_durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frames": 5,
+      "frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frames": 8,
+      "frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frames": 6,
+      "frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frames": 6,
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frames": 6,
+      "frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look_frame_duration_ms": 180
+}
