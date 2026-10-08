@@ -7,7 +7,7 @@
 | ![闹吃唱歌](assets/pets/naochi/singing-main.gif) | ![古振兴唱歌](assets/pets/guzhenxing/singing-main.gif) |
 | [下载精灵图](assets/pets/naochi/spritesheet.png) · [全部动作](assets/pets/naochi/all-states.gif) | [下载精灵图](assets/pets/guzhenxing/spritesheet.png) · [全部动作](assets/pets/guzhenxing/all-states.gif) |
 
-打开 [index.html](index.html) 即可查看双人预览，无需安装依赖或构建。默认播放唱歌动作；勾选同步时，两人一起切换动作和方向，取消同步后可以分别控制。方向模式播放时按顺时针遍历 16 个方向，暂停后可固定查看某一方向。画面直接裁取原始 Atlas 中的 192 × 208 单元格。
+通过仓库的 **Code → Download ZIP** 下载并解压后，在本地打开 [index.html](index.html) 即可查看双人预览，无需安装依赖或构建。默认播放唱歌动作；勾选同步时，两人一起切换动作和方向，取消同步后可以分别控制。方向模式播放时按顺时针遍历 16 个方向，暂停后可固定查看某一方向。画面直接裁取原始 Atlas 中的 192 × 208 单元格。
 
 ## 当前人物与动作
 
