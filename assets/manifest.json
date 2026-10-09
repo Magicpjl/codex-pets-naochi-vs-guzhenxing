@@ -73,7 +73,7 @@
     {
       "slug": "guzhenxing",
       "name": "古振兴",
-      "source_revision": 6,
+      "source_revision": 7,
       "atlas": "assets/pets/guzhenxing/spritesheet.png",
       "previews": {
         "all-states": "assets/pets/guzhenxing/all-states.gif",
@@ -81,8 +81,8 @@
         "idle-jump-idle": "assets/pets/guzhenxing/idle-jump-idle.gif",
         "look-loop": "assets/pets/guzhenxing/look-loop.gif"
       },
-      "atlas_sha256": "d90f58559d04f7e0c77545e59a452c5ca522ec6d5978dde56740d7ee2e2200d6",
-      "atlas_bytes": 2130137
+      "atlas_sha256": "b4d838a095e6a712fb903d207f855e422436889c29f1ee34bb67f261bd85fc59",
+      "atlas_bytes": 2133798
     }
   ],
   "files": [
@@ -146,8 +146,8 @@
     },
     {
       "path": "assets/pets/guzhenxing/spritesheet.png",
-      "bytes": 2130137,
-      "sha256": "d90f58559d04f7e0c77545e59a452c5ca522ec6d5978dde56740d7ee2e2200d6",
+      "bytes": 2133798,
+      "sha256": "b4d838a095e6a712fb903d207f855e422436889c29f1ee34bb67f261bd85fc59",
       "width": 1536,
       "height": 2288,
       "format": "PNG",
@@ -156,8 +156,8 @@
     },
     {
       "path": "assets/pets/guzhenxing/all-states.gif",
-      "bytes": 758442,
-      "sha256": "325d0077b8ee0b326f6abb4d66ec6a87155913d92869609565f60e4e206e074e",
+      "bytes": 759068,
+      "sha256": "91da7b305064ccc3d3ef0849225edbe46c8e1a2582ce8a7e74879694b9f5d539",
       "width": 192,
       "height": 236,
       "format": "GIF",
@@ -168,8 +168,8 @@
     },
     {
       "path": "assets/pets/guzhenxing/singing-main.gif",
-      "bytes": 80062,
-      "sha256": "7e87f7a69b0dd2cff675b68b4a7525d7aa63b36f489c5e801dbd36b011e6e97e",
+      "bytes": 80631,
+      "sha256": "f7a0993bd0b93a50bc170d956a22b757137158c2dd3313871cd79c0bc69b9b29",
       "width": 192,
       "height": 208,
       "format": "GIF",
